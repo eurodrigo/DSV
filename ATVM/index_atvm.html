@@ -1,0 +1,481 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="wide wow-animation smoothscroll scrollTo boxed">
+<head>
+    <title>ATVM</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+    <!--<link rel="icon" href="images/favicon.ico" type="image/x-icon">-->
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+        <![endif]-->
+</head>
+<body>
+    <div class="page text-center">
+        <header class="page-header page-header-with-slider">
+            <div class="rd-navbar-wrap">
+                <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fullwidth" data-lg-layout="rd-navbar-static" class="rd-navbar rd-navbar-default" data-stick-up-offset="50px" data-md-layout="rd-navbar-fullwidth" data-md-device-layout="rd-navbar-fullwidth" data-lg-device-layout="rd-navbar-static">
+                    <div class="rd-navbar-inner">
+                        <div class="rd-navbar-top-part">
+                            <div class="rd-navbar-top-part-inner-left element-groups-lg-35 reveal-sm-flex">
+                                <div class="veil reveal-lg-inline-block">
+                                    <a href="contacts.html" class="text-gray-light">
+                                        <span class="icon icon-circle icon-sm bg-white text-primary material-icons-location_on"></span>
+                                        <span class="inset-left-10 small">ATVM - Brasil</span>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="callto:#" class="text-gray-light">
+                                        <span class="icon icon-circle icon-sm bg-white text-primary material-icons-local_phone"></span>
+                                        <span class="inset-left-10 small">0800-2345-6789</span>
+                                    </a>
+                                </div>
+                                <div style="width:100px">
+                                    <span class="icon icon-circle icon-sm bg-white text-primary fa-globe" style="float:left;"></span>
+                                    <ul class="list-inline-0">
+                                        <li><img src="fonts/br.svg" alt="Brasil" height="15" /></li>
+                                        <li><img src="fonts/us.svg" alt="United States" height="15" /></li>
+                                        <li><img src="fonts/es.svg" alt="Spain" height="15" /></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <a href="#" class="text-gray-light" title="Login">
+                                        <span class="icon icon-circle icon-sm bg-white text-primary material-icons-face"></span>
+                                        <span class="inset-left-10 small">Olá Visitante</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <div data-rd-navbar-toggle=".rd-navbar-search-wrap" class="rd-navbar-search-toggle"></div>
+                                <div class="rd-navbar-search-wrap">
+                                    <div class="rd-navbar-search">
+                                        <form action="search.php" method="GET" class="rd-navbar-search-form">
+                                            <label class="rd-navbar-search-form-input">
+                                                <input type="text" name="s" placeholder="Busca..." autocomplete="off">
+                                            </label>
+                                            <button type="submit" class="rd-navbar-search-form-submit"></button>
+                                        </form><span class="rd-navbar-live-search-results"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rd-navbar-panel">
+                            <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
+                        </div>
+                        <div class="rd-navbar-nav-wrap">
+                            <div class="rd-navbar-brand"><!--<a href="index.html" class="brand-name"><img src="images/logo.png" alt="" height="50"></a>--></div>
+                            <div class="rd-navbar-nav-outher">
+                                <ul class="rd-navbar-nav">
+                                    <li class="active">
+                                        <a href="index_atvm.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Investidor</a>
+                                        <ul class="rd-navbar-dropdown">
+                                            <li><a href="news.html">Sobre</a></li>
+                                            <li><a href="development.html">Painel (Demo)</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Consultor</a>
+                                        <ul class="rd-navbar-dropdown">
+                                            <li><a href="news.html">Sobre</a></li>
+                                            <li><a href="development.html">Painel (Demo)</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Empresa</a>
+                                        <ul class="rd-navbar-dropdown">
+                                            <li><a href="news.html">Sobre</a></li>
+                                            <li><a href="development.html">Painel (Demo)</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="about-us.html">Negócio</a></li>
+                                    <li><a href="about-us.html">Ajuda</a></li>
+                                    <li><a href="contacts.html">Contato</a></li>
+                                </ul>
+                            </div>
+                            <div class="rd-navbar-list-social">
+                                <ul class="list-inline-0">
+                                    <li><a href="#" class="icon icon-circle fa-facebook icon-default"></a></li>
+                                    <li><a href="#" class="icon icon-circle fa-twitter icon-default"></a></li>
+                                    <li><a href="#" class="icon icon-circle fa-linkedin icon-default"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="page-content offset-top-30">
+            <div id="fb-root"></div>
+            <div data-items="1" data-xs-items="2" data-md-items="3" data-lg-items="4" data-loop="true" data-nav="true" data-mouse-drag="false" data-margin="45px" data-stage-padding="15px" class="owl-carousel owl-carousel-flex owl-carousel-navigation-variant-1 offset-top-0">
+                <div class="owl-item">
+                    <div class="post post-variant-1 post-variant-1-short box post-variant-1-equal-height">
+                        <div>
+                            <div class="post-media-wrap">
+                                <a href="oferta_detalhe.html?N=Vivo&S=Telefonia móvel&SN=TELEFONICA BRASIL&D=S"><img src="images/carousel-01.jpg" width="370" height="231" alt="" class="img-responsive post-image" /></a>
+                                <ul class="post-categories list-inline-0">
+                                    <li><a href="categories-list.html"><span class="label label-primary">Destaque</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="post-content-wrap">
+                                <div class="small text-gray-dark post-meta-author" style="text-align:center;"><span class="text-primary">Vivo</span></div>
+                                <h5 style="margin-top:20px; text-align:center"><a href="oferta_detalhe.html?N=Vivo&S=Telefonia móvel&SN=TELEFONICA BRASIL&D=S">Telefonia móvel</a></h5>
+                                <ul class="post-meta list-inline list-inline-md">
+                                    <li style="font-size:12px!important;"><span class="fa fa-line-chart" title="Score" style="color:green"></span>&nbsp;6,05</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-gift" title="Prêmio" style="color:red"></span>&nbsp;13,98</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-percent" title="Taxa a.m"></span>&nbsp;0,02</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-money" title="Investimento" style="color:green"></span>&nbsp;12,75</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-battery-full" title="Cotas"></span>&nbsp;5000</li>
+                                </ul>
+                            </div>
+                            <div class="post-content-bottom">
+                                <ul class="post-meta list-inline list-inline-md">
+                                    <li style="font-size:12px!important;"><span class="fa fa-battery-half" title="Cotas disponíveis" style="color:red"></span>&nbsp;18</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-calendar-check-o" title="Resgate"></span>&nbsp;13/11/2016</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-item">
+                    <div class="post post-variant-1 post-variant-1-short box post-variant-1-equal-height">
+                        <div>
+                            <div class="post-media-wrap">
+                                <a href="oferta_detalhe.html?N=Dafit&S=Moda&SN=Dafit LTDA&D=S"><img src="images/carousel-02.jpg" width="370" height="231" alt="" class="img-responsive post-image" /></a>
+                                <ul class="post-categories list-inline-0">
+                                    <li><a href="categories-list.html"><span class="label label-primary">Destaque</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="post-content-wrap">
+                                <div class="small text-gray-dark post-meta-author" style="text-align:center;"><span class="text-primary">Dafit</span></div>
+                                <h5 style="margin-top:20px; text-align:center"><a href="oferta_detalhe.html?N=Dafit&S=Moda&SN=Dafit LTDA&D=S">Moda</a></h5>
+                                <ul class="post-meta list-inline list-inline-md">
+                                    <li style="font-size:12px!important;"><span class="fa fa-line-chart" title="Score" style="color:green"></span>&nbsp;6,05</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-gift" title="Prêmio" style="color:red"></span>&nbsp;13,98</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-percent" title="Taxa a.m"></span>&nbsp;0,02</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-money" title="Investimento" style="color:green"></span>&nbsp;12,75</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-battery-full" title="Cotas"></span>&nbsp;5000</li>
+                                </ul>
+                            </div>
+                            <div class="post-content-bottom">
+                                <ul class="post-meta list-inline list-inline-md">
+                                    <li style="font-size:12px!important;"><span class="fa fa-battery-half" title="Cotas disponíveis" style="color:red"></span>&nbsp;18</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-calendar-check-o" title="Resgate"></span>&nbsp;13/11/2016</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-item">
+                    <div class="post post-variant-1 post-variant-1-short box post-variant-1-equal-height">
+                        <div>
+                            <div class="post-media-wrap">
+                                <a href="oferta_detalhe.html?N=Nestle&S=Alimentício&SN=Nestre Brasil"><img src="images/carousel-03.jpg" width="370" height="231" alt="" class="img-responsive post-image" /></a>
+                            </div>
+                            <div class="post-content-wrap">
+                                <div class="small text-gray-dark post-meta-author" style="text-align:center;"><span class="text-primary">Nestle</span></div>
+                                <h5 style="margin-top:20px; text-align:center"><a href="oferta_detalhe.html?N=Nestle&S=Alimentício&SN=Nestre Brasil">Alimentício</a></h5>
+                                <ul class="post-meta list-inline list-inline-md">
+                                    <li style="font-size:12px!important;"><span class="fa fa-line-chart" title="Score" style="color:green"></span>&nbsp;6,05</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-gift" title="Prêmio" style="color:red"></span>&nbsp;13,98</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-percent" title="Taxa a.m"></span>&nbsp;0,02</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-money" title="Investimento" style="color:green"></span>&nbsp;12,75</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-battery-full" title="Cotas"></span>&nbsp;5000</li>
+                                </ul>
+                            </div>
+                            <div class="post-content-bottom">
+                                <ul class="post-meta list-inline list-inline-md">
+                                    <li style="font-size:12px!important;"><span class="fa fa-battery-half" title="Cotas disponíveis" style="color:red"></span>&nbsp;18</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-calendar-check-o" title="Resgate"></span>&nbsp;13/11/2016</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-item">
+                    <div class="post post-variant-1 post-variant-1-short box post-variant-1-equal-height">
+                        <div>
+                            <div class="post-media-wrap">
+                                <a href="oferta_detalhe.html?N=Casas Bahia&S=Vendas&SN=Casas Bahia LTDA"><img src="images/carousel-04.jpg" width="370" height="231" alt="" class="img-responsive post-image" /></a>
+                            </div>
+                            <div class="post-content-wrap">
+                                <div class="small text-gray-dark post-meta-author" style="text-align:center;"><span class="text-primary">Casas Bahia</span></div>
+                                <h5 style="margin-top:20px; text-align:center"><a href="oferta_detalhe.html?N=Casas Bahia&S=Vendas&SN=Casas Bahia LTDA">Vendas</a></h5>
+                                <ul class="post-meta list-inline list-inline-md">
+                                    <li style="font-size:12px!important;"><span class="fa fa-line-chart" title="Score" style="color:green"></span>&nbsp;6,05</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-gift" title="Prêmio" style="color:red"></span>&nbsp;13,98</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-percent" title="Taxa a.m"></span>&nbsp;0,02</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-money" title="Investimento" style="color:green"></span>&nbsp;12,75</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-battery-full" title="Cotas"></span>&nbsp;5000</li>
+                                </ul>
+                            </div>
+                            <div class="post-content-bottom">
+                                <ul class="post-meta list-inline list-inline-md">
+                                    <li style="font-size:12px!important;"><span class="fa fa-battery-half" title="Cotas disponíveis" style="color:red"></span>&nbsp;18</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-calendar-check-o" title="Resgate"></span>&nbsp;13/11/2016</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-item">
+                    <div class="post post-variant-1 post-variant-1-short box post-variant-1-equal-height">
+                        <div>
+                            <div class="post-media-wrap">
+                                <a href="oferta_detalhe.html?N=Klin&S=Moda Infantil&SN=Klin LTDA"><img src="images/carousel-06.jpg" width="370" height="231" alt="" class="img-responsive post-image" /></a>
+                            </div>
+                            <div class="post-content-wrap">
+                                <div class="small text-gray-dark post-meta-author" style="text-align:center;"><span class="text-primary">Klin</span></div>
+                                <h5 style="margin-top:20px; text-align:center"><a href="oferta_detalhe.html?N=Klin&S=Moda Infantil&SN=Klin LTDA">Moda Infantil</a></h5>
+                                <ul class="post-meta list-inline list-inline-md">
+                                    <li style="font-size:12px!important;"><span class="fa fa-line-chart" title="Score" style="color:green"></span>&nbsp;6,05</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-gift" title="Prêmio" style="color:red"></span>&nbsp;13,98</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-percent" title="Taxa a.m"></span>&nbsp;0,02</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-money" title="Investimento" style="color:green"></span>&nbsp;12,75</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-battery-full" title="Cotas"></span>&nbsp;5000</li>
+                                </ul>
+                            </div>
+                            <div class="post-content-bottom">
+                                <ul class="post-meta list-inline list-inline-md">
+                                    <li style="font-size:12px!important;"><span class="fa fa-battery-half" title="Cotas disponíveis" style="color:red"></span>&nbsp;18</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-calendar-check-o" title="Resgate"></span>&nbsp;13/11/2016</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-items="1" data-xs-items="2" data-md-items="3" data-lg-items="4" data-loop="true" data-nav="true" data-mouse-drag="false" data-margin="45px" data-stage-padding="18px" class="owl-carousel owl-carousel-flex owl-carousel-navigation-variant-1 offset-top-30">
+                <div class="owl-item">
+                    <div class="post post-variant-1 post-variant-1-short box post-variant-1-equal-height">
+                        <div>
+                            <div class="post-media-wrap">
+                                <a href="oferta_detalhe.html?N=LG&S=Tecnologia&SN=LB Br LTDA"><img src="images/carousel-07.jpg" width="370" height="231" alt="" class="img-responsive post-image" /></a>
+                            </div>
+                            <div class="post-content-wrap">
+                                <div class="small text-gray-dark post-meta-author" style="text-align:center;"><span class="text-primary">LG</span></div>
+                                <h5 style="margin-top:20px; text-align:center"><a href="oferta_detalhe.html?N=LG&S=Tecnologia&SN=LB Br LTDA">Tecnologia</a></h5>
+                                <ul class="post-meta list-inline list-inline-md">
+                                    <li style="font-size:12px!important;"><span class="fa fa-line-chart" title="Score" style="color:green"></span>&nbsp;6,05</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-gift" title="Prêmio" style="color:red"></span>&nbsp;13,98</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-percent" title="Taxa a.m"></span>&nbsp;0,02</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-money" title="Investimento" style="color:green"></span>&nbsp;12,75</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-battery-full" title="Cotas"></span>&nbsp;5000</li>
+                                </ul>
+                            </div>
+                            <div class="post-content-bottom">
+                                <ul class="post-meta list-inline list-inline-md">
+                                    <li style="font-size:12px!important;"><span class="fa fa-battery-half" title="Cotas disponíveis" style="color:red"></span>&nbsp;18</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-calendar-check-o" title="Resgate"></span>&nbsp;13/11/2016</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-item">
+                    <div class="post post-variant-1 post-variant-1-short box post-variant-1-equal-height">
+                        <div>
+                            <div class="post-media-wrap">
+                                <a href="oferta_detalhe.html?N=Pepsi&S=Bebidas&SN=Pepisico"><img src="images/carousel-08.jpg" width="370" height="231" alt="" class="img-responsive post-image" /></a>
+                            </div>
+                            <div class="post-content-wrap">
+                                <div class="small text-gray-dark post-meta-author" style="text-align:center;"><span class="text-primary">Pepsi</span></div>
+                                <h5 style="margin-top:20px; text-align:center"><a href="oferta_detalhe.html?N=Pepsi&S=Bebidas&SN=Pepisico">Bebidas</a></h5>
+                                <ul class="post-meta list-inline list-inline-md">
+                                    <li style="font-size:12px!important;"><span class="fa fa-line-chart" title="Score" style="color:green"></span>&nbsp;6,05</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-gift" title="Prêmio" style="color:red"></span>&nbsp;13,98</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-percent" title="Taxa a.m"></span>&nbsp;0,02</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-money" title="Investimento" style="color:green"></span>&nbsp;12,75</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-battery-full" title="Cotas"></span>&nbsp;5000</li>
+                                </ul>
+                            </div>
+                            <div class="post-content-bottom">
+                                <ul class="post-meta list-inline list-inline-md">
+                                    <li style="font-size:12px!important;"><span class="fa fa-battery-half" title="Cotas disponíveis" style="color:red"></span>&nbsp;18</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-calendar-check-o" title="Resgate"></span>&nbsp;13/11/2016</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-item">
+                    <div class="post post-variant-1 post-variant-1-short box post-variant-1-equal-height">
+                        <div>
+                            <div class="post-media-wrap">
+                                <a href="oferta_detalhe.html?N=Hermes Pardini&S=Patologia Clínica&SN=Hermes Pardini LTDA"><img src="images/carousel-09.jpg" width="370" height="231" alt="" class="img-responsive post-image" /></a>
+                            </div>
+                            <div class="post-content-wrap">
+                                <div class="small text-gray-dark post-meta-author" style="text-align:center;"><span class="text-primary">Hermes Pardini</span></div>
+                                <h5 style="margin-top:20px; text-align:center"><a href="oferta_detalhe.html?N=Hermes Pardini&S=Patologia Clínica&SN=Hermes Pardini LTDA">Patologia Clínica</a></h5>
+                                <ul class="post-meta list-inline list-inline-md">
+                                    <li style="font-size:12px!important;"><span class="fa fa-line-chart" title="Score" style="color:green"></span>&nbsp;6,05</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-gift" title="Prêmio" style="color:red"></span>&nbsp;13,98</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-percent" title="Taxa a.m"></span>&nbsp;0,02</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-money" title="Investimento" style="color:green"></span>&nbsp;12,75</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-battery-full" title="Cotas"></span>&nbsp;5000</li>
+                                </ul>
+                            </div>
+                            <div class="post-content-bottom">
+                                <ul class="post-meta list-inline list-inline-md">
+                                    <li style="font-size:12px!important;"><span class="fa fa-battery-half" title="Cotas disponíveis" style="color:red"></span>&nbsp;18</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-calendar-check-o" title="Resgate"></span>&nbsp;13/11/2016</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-item">
+                    <div class="post post-variant-1 post-variant-1-short box post-variant-1-equal-height">
+                        <div>
+                            <div class="post-media-wrap">
+                                <a href="oferta_detalhe.html?N=Fender&S=Instrumentos Musicais&SN=Fender Brasil"><img src="images/carousel-10.jpg" width="370" height="231" alt="" class="img-responsive post-image" /></a>
+                            </div>
+                            <div class="post-content-wrap">
+                                <div class="small text-gray-dark post-meta-author" style="text-align:center;"><span class="text-primary">Fender</span></div>
+                                <h5 style="margin-top:20px; text-align:center"><a href="oferta_detalhe.html?N=Fender&S=Instrumentos Musicais&SN=Fender Brasil">Instrumentos Musicais</a></h5>
+                                <ul class="post-meta list-inline list-inline-md">
+                                    <li style="font-size:12px!important;"><span class="fa fa-line-chart" title="Score" style="color:green"></span>&nbsp;6,05</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-gift" title="Prêmio" style="color:red"></span>&nbsp;13,98</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-percent" title="Taxa a.m"></span>&nbsp;0,02</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-money" title="Investimento" style="color:green"></span>&nbsp;12,75</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-battery-full" title="Cotas"></span>&nbsp;5000</li>
+                                </ul>
+                            </div>
+                            <div class="post-content-bottom">
+                                <ul class="post-meta list-inline list-inline-md">
+                                    <li style="font-size:12px!important;"><span class="fa fa-battery-half" title="Cotas disponíveis" style="color:red"></span>&nbsp;18</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-calendar-check-o" title="Resgate"></span>&nbsp;13/11/2016</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-item">
+                    <div class="post post-variant-1 post-variant-1-short box post-variant-1-equal-height">
+                        <div>
+                            <div class="post-media-wrap">
+                                <a href="oferta_detalhe.html?N=Adidas&S=Moda Esportiva&SN=Adidas LTDA"><img src="images/carousel-11.jpg" width="370" height="231" alt="" class="img-responsive post-image" /></a>
+                            </div>
+                            <div class="post-content-wrap">
+                                <div class="small text-gray-dark post-meta-author" style="text-align:center;"><span class="text-primary">Adidas</span></div>
+                                <h5 style="margin-top:20px; text-align:center"><a href="oferta_detalhe.html?N=Adidas&S=Moda Esportiva&SN=Adidas LTDA">Moda Esportiva</a></h5>
+                                <ul class="post-meta list-inline list-inline-md">
+                                    <li style="font-size:12px!important;"><span class="fa fa-line-chart" title="Score" style="color:green"></span>&nbsp;6,05</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-gift" title="Prêmio" style="color:red"></span>&nbsp;13,98</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-percent" title="Taxa a.m"></span>&nbsp;0,02</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-money" title="Investimento" style="color:green"></span>&nbsp;12,75</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-battery-full" title="Cotas"></span>&nbsp;5000</li>
+                                </ul>
+                            </div>
+                            <div class="post-content-bottom">
+                                <ul class="post-meta list-inline list-inline-md">
+                                    <li style="font-size:12px!important;"><span class="fa fa-battery-half" title="Cotas disponíveis" style="color:red"></span>&nbsp;18</li>
+                                    <li style="font-size:12px!important;"><span class="fa fa-calendar-check-o" title="Resgate"></span>&nbsp;13/11/2016</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="page-footer">
+            <section class="bg-primary section-top-54 section-bottom-60">
+                <div class="shell">
+                    <h5>Newsletter</h5>
+                    <div class="range offset-top-20">
+                        <div class="cell-md-8 cell-md-preffix-2">
+                            <p>Cadastre-se e receba novidades da ATVM</p>
+                        </div>
+                    </div>
+                    <div class="max-width-400 center-block offset-top-20">
+                        <form data-result-class="rd-mailform-validate-3" data-form-type="subscribe" method="post" action="bat/rd-mailform.php" class="rd-mailform form-inline-flex form-inline reveal-xs-flex">
+                            <input type="text" name="email" data-constraints="@NotEmpty @Email" placeholder="Seu e-mail">
+                            <button class="btn btn-gray-dark offset-top-10 offset-xs-top-0">Inscrever</button>
+                        </form>
+                        <div class="rd-mailform-validate-3"></div>
+                    </div>
+                </div>
+            </section>
+            <div class="footer-section">
+                <div>
+                    <div class="brand"><!--<a href="index.html" class="brand-name"><img src="images/logo-footer.png" alt="" width="159" height="50"></a> <li class="small reveal-block reveal-lg-inline-block"><img src="images/selo_site_seguro.png" alt="Site Protegido" height="80"  /></li>  --></div>
+                    <div class="offset-top-20 offset-sm-top-0">
+                        <ul class="list-inline-0">
+                            <li><a href="#" class="icon icon-circle fa-facebook icon-default"></a></li>
+                            <li><a href="#" class="icon icon-circle fa-twitter icon-default"></a></li>
+                            <li><a href="#" class="icon icon-circle fa-linkedin icon-default"></a></li>
+                        </ul>
+                    </div>
+                    <div class="offset-top-20 offset-sm-top-5 offset-lg-top-0">
+                        <ul class="list-inline list-lg-inline-30 list-lg-dashed">
+                            <li class="small">Copyright &copy; <span id="copyright-year"></span> ATVM. Direitos reservados.</li>
+                            <li class="small reveal-block reveal-lg-inline-block"><a href="#">Termos & Condições</a></li>
+                            <li class="small reveal-block reveal-lg-inline-block"><a href="privacy.html">Política de Privacidade</a></li>
+                            <!--<li class="small reveal-block reveal-lg-inline-block"><span>Formas de Pagamento:</span>&nbsp;<span class="fa-cc-visa" />&nbsp;<span class="fa-cc-mastercard" />&nbsp;<span class="fa-barcode" /></li>-->
+                        </ul>
+                    </div>
+                </div>
+
+                <div style="width:100%; margin-top:15px; border-top: 1px solid #4a4a5c;">
+                    <div style="width:100%; text-align:center; font-size:40px; margin-top:15px;">
+                        <div style="display:inline-block;">
+                            <!--<span>Trabalhamos com</span>&nbsp;--><span class="fa-cc-visa" />&nbsp;<span class="fa-cc-mastercard" />&nbsp;<span class="fa-barcode" />
+                        </div>
+                        <div style="display:inline-block;">
+                            <img src="images/selo_site_seguro.png" height="90">
+                        </div>
+                    </div>
+                </div>
+
+                <div style="width:100%; margin-top:15px; border-top: 1px solid #4a4a5c;">
+                    <div style="width:100%; text-align:center; font-size:12px; margin-top:5px;">
+                        <div style="width:100px; display:inline-block; text-align:left; vertical-align:top;">
+                            Mapa do site:
+                        </div>
+                        <div style="width:50px; display:inline-block; text-align:left; vertical-align:top;">
+                            <a href="#" style="width:100%; display:block;">Home</a>
+                        </div>
+                        <div style="width:100px; display:inline-block; text-align:left; vertical-align:top;">
+                            <span href="#" style="width:100%; display:block;">Investidor</span>
+                            <a href="#" style="width:100%; display:block;">Sobre</a>
+                            <a href="#" style="width:100%; display:block;">Painel (Demo)</a>
+                        </div>
+
+                        <div style="width:100px; display:inline-block; text-align:left; vertical-align:top;">
+                            <span href="#" style="width:100%; display:block;">Consultor</span>
+                            <a href="#" style="width:100%; display:block;">Sobre</a>
+                            <a href="#" style="width:100%; display:block;">Painel (Demo)</a>
+                        </div>
+
+                        <div style="width:94px; display:inline-block; text-align:left; vertical-align:top;">
+                            <span href="#" style="width:100%; display:block;">Empresa</span>
+                            <a href="#" style="width:100%; display:block;">Sobre</a>
+                            <a href="#" style="width:100%; display:block;">Painel (Demo)</a>
+                        </div>
+
+                        <div style="width:65px; display:inline-block; text-align:left; vertical-align:top;">
+                            <a href="#" style="width:100%; display:block;">Negócio</a>
+                        </div>
+
+                        <div style="width:50px; display:inline-block; text-align:left; vertical-align:top;">
+                            <a href="#" style="width:100%; display:block;">Ajuda</a>
+                        </div>
+
+                        <div style="width:50px; display:inline-block; text-align:left; vertical-align:top;">
+                            <a href="#" style="width:100%; display:block;">Contato</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
